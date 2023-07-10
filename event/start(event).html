@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>イベント</title>
+ <link rel="stylesheet" href="start(event).css">
+ <link rel="icon" href="../pokemonquestimg/モンスターボール.png">
+</head>
+<body>
+ <div id="body">
+ <h2>ボスを選択してください</h2>
+ <div>
+  <a href="pokemonselect(event).html" onclick="eventone();"><img src="BOSSimg/event(Mugendina).jpg" class="BOSSimg"></a>
+  <a href="pokemonselect(event).html" onclick="eventtwo();"><img src="BOSSimg/event(UltraNecrozma).jpg" class="BOSSimg"></a>
+ </div>
+ <div>
+  <a href="pokemonselect(event).html" onclick="eventthree();"><img src="BOSSimg/event(Zygarde).jpg" class="BOSSimg"></a>
+  <a href="pokemonselect(event).html" onclick="eventfour();"><img src="BOSSimg/event(Hoopa).jpg" class="BOSSimg"></a>
+ </div>
+ <div>
+  <a href="pokemonselect(event).html" onclick="eventfive();"><img src="BOSSimg/event(Primalleft).jpg" class="BOSSimgL"></a>
+  <a href="pokemonselect(event).html" onclick="eventsix();"><img src="BOSSimg/event(Primalright).jpg" class="BOSSimgR"></a>
+ </div>
+ <script>
+  const body = document.getElementById("body");
+  let Pnameon = null;
+  while (Pnameon === null || Pnameon === "") {
+   Pnameon = prompt("あなたの名前は？");
+  };
+  localStorage.setItem("names",Pnameon);
+  alert("強力なボスが現れました。選択して倒しましょう！");
+  function eventone() {
+   localStorage.setItem("eventnumber","0");
+  };
+  function eventtwo() {
+   localStorage.setItem("eventnumber","1");
+  };
+  function eventthree() {
+   localStorage.setItem("eventnumber","2");
+  };
+  function eventfour() {
+   localStorage.setItem("eventnumber","3");
+  };
+  function eventfive() {
+   localStorage.setItem("eventnumber","4");
+  };
+  function eventsix() {
+   localStorage.setItem("eventnumber","5");
+  };
+  window.onload = function() {
+   body.style.visibility = "visible";
+  };
+ </script>
+</body>

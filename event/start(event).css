@@ -1,0 +1,21 @@
+//body { background-color: #ABCDEF; }
+#body { 
+     visibility: hidden;
+     display: grid;
+     place-items: center;
+}
+.BOSSimg {
+        height: 200px;
+}
+.BOSSimgL {
+        position: absolute;
+        top: 500px;
+        left: 400px;
+        width: 179px;
+}
+.BOSSimgR {
+        position: absolute;
+        top: 500px;
+        left: 579px;
+        width: 221px;
+}
