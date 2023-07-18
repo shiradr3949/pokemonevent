@@ -1,0 +1,67 @@
+//body { background-color: #ABCDEF; }
+#body { 
+     visibility: hidden;
+}
+.hidden {
+       visibility: hidden;
+}
+.imgp {
+  width: 500px;
+  height: 220px;
+  position: absolute;
+  top: 50px;
+  left: 700px;
+  display: flex;
+  justify-content: center;
+  //border-width: thick;
+  //border-style: solid;
+}
+.img {
+    height: 220px;
+}
+.BOSSimgL1 {
+        position: absolute;
+        top: 300px;
+        left: 230px;
+        height: 180px;
+}
+.BOSSimgR1 {
+        position: absolute;
+        top: 300px;
+        left: 345px;
+        height: 180px;
+}
+.BOSSimgL2 {
+        position: absolute;
+        top: 300px;
+        left: 500px;
+        height: 180px;
+}
+.BOSSimgR2 {
+        position: absolute;
+        top: 300px;
+        left: 640px;
+        height: 180px;
+}
+.BOSSimgL3 {
+        position: absolute;
+        top: 300px;
+        left: 800px;
+        height: 180px;
+}
+.BOSSimgR3 {
+        position: absolute;
+        top: 300px;
+        left: 1000px;
+        height: 180px;
+}
+.dp {
+   font-size: 25px;
+}
+#button {
+       width: 200px;
+       font-size: 40px;
+}
+.icon {
+     font-size: 30px;
+}
