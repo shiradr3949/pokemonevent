@@ -1,0 +1,262 @@
+#body { visibility: hidden; }
+.set {
+      position: absolute;
+      top: 340px;
+      left: 585px;
+      font-size: 40px;
+}
+
+.PK {
+   width: 100px;
+}
+
+
+.Lv {
+   position: absolute;
+   top: 60px;
+   left: 20px;
+   font-size: 40px;
+}
+
+.name {
+     position: absolute;
+     top: 60px;
+     left: 140px;
+     font-size: 40px;
+}
+
+.PKcenter {
+         position: absolute;
+         top: 100px;
+         left: 530px;
+         width: 200px;
+}
+
+.subPKL {
+       position: absolute;
+       top: 190px;
+       left: 410px;
+       width: 100px;
+}
+
+.subPKR {
+       position: absolute;
+       top: 190px;
+       left: 750px;
+       width: 100px;
+}
+
+.F {
+  position: absolute;
+  top: 60px;
+  left: 950px;
+  font-size: 30px;
+}
+
+.Fdp {
+  position: absolute;
+  top: 95px;
+  left: 930px;
+  font-size: 20px;
+}
+
+.type {
+      position: absolute;
+      top: 110px;
+      left: 30px;
+      color: #FFFFFF;
+      font-size: 25px;
+}
+
+#type1 {
+      padding: 1px;
+      border-radius: 10px;
+}
+
+#type2 {
+      padding: 2px;
+      border-radius: 10px;
+}
+
+.HP {
+   position: absolute;
+   top: 150px;
+   left: 80px;
+   font-size: 35px;
+}
+
+.attack {
+   position: absolute;
+   top: 190px;
+   left: 25px;
+   font-size: 35px;
+}
+
+.block {
+   position: absolute;
+   top: 230px;
+   left: 25px;
+   font-size: 35px;
+}
+
+.contact {
+   position: absolute;
+   top: 270px;
+   left: 25px;
+   font-size: 35px;
+}
+
+.defense {
+   position: absolute;
+   top: 310px;
+   left: 25px;
+   font-size: 35px;
+}
+
+.speed {
+   position: absolute;
+   top: 350px;
+   left: 25px;
+   font-size: 35px;
+}
+
+.table {
+      width: 300px;
+      height: 250px;
+      border-width: thick;
+      position: absolute;
+      top: 190px;
+      left: 920px;
+      border-style: solid;
+}
+
+.imgsize {
+        width: 6%;
+}
+.intable {
+        text-align: left;
+        border-width: thick;
+        border-style: outset;
+        font-size: 15px;
+}
+
+.subtable {
+        font-size: 12px;
+}
+
+.left {
+     border-radius: 150px;
+     width: 125px;
+     position: absolute;
+     top: 320px;
+     left: 450px;
+     font-size: 80px;
+}
+
+.right {
+      border-radius: 150px;
+      width: 125px;
+      position: absolute;
+      top: 320px;
+      left: 690px;
+      font-size: 80px;
+}
+
+.highleft {
+     border-radius: 200px;
+     height: 85px;
+     position: absolute;
+     top: 350px;
+     left: 360px;
+     font-size: 35px;
+}
+
+.highright {
+      border-radius: 200px;
+      height: 85px;
+      position: absolute;
+      top: 350px;
+      left: 820px;
+      font-size: 35px;
+}
+
+.PK1 {
+     width: 150px;
+     position: absolute;
+     top: 500px;
+     left: 130px;
+}
+
+.PK2 {
+     width: 150px;
+     position: absolute;
+     top: 500px;
+     left: 300px;
+}
+
+.PK3 {
+     width: 150px;
+     position: absolute;
+     top: 500px;
+     left: 470px;
+}
+
+.PK4 {
+     width: 150px;
+     position: absolute;
+     top: 500px;
+     left: 650px;
+}
+
+.PK5 {
+     width: 150px;
+     position: absolute;
+     top: 500px;
+     left: 820px;
+}
+
+.PK6 {
+     width: 150px;
+     position: absolute;
+     top: 500px;
+     left: 990px;
+}
+
+.rightborder {
+            border-right: solid 1px;
+            padding: 0 10px;
+}
+
+.rotom {
+      color: rgba(255,255,255,0);
+      font-size: 40px;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      top: 10px;
+      left: 580px;
+      background-image: url(../pokemonquestimg/ロトム2.png);
+      background-size: 80px;
+      background-repeat: no-repeat;
+}
+.ivs {
+      color: rgba(255,255,255,0);
+      font-size: 40px;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      top: 10px;
+      left: 580px;
+      background-image: url(../pokemonquestimg/Flareon2.jpg);
+      background-size: 80px;
+      background-repeat: no-repeat;
+}
+#MAXdp {
+         font-size: 40px;
+         position: absolute;
+         top: 10px;
+         left: 730px;
+}
+#MAXcandy {
+         width: 80px;
+}
