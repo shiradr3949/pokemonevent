@@ -1,0 +1,23 @@
+.score {
+ font-size: 70px;
+ color: #ffd900;
+ display: flex;
+ justify-content: center;
+}
+.scores {
+ visibility: hidden;
+}
+.stars {
+ display: flex;
+ justify-content: center;
+ //border-width: thick;
+ //border-style: solid;
+ height: 150px;
+}
+.starss {
+ width: 40px;
+}
+.name {
+ font-size: 30px;
+ color: #7c257c;
+}
